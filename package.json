@@ -2,7 +2,7 @@
   "name": "react-static-example-basic",
   "private": true,
   "scripts": {
-    "start": "react-static start",
+    "start": "react-static build",
     "stage": "react-static build --staging",
     "build": "react-static build",
     "analyze": "react-static build --analyze",
