@@ -678,18 +678,18 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 // EXTERNAL MODULE: external "react-static"
 var external_react_static_ = __webpack_require__(4);
 
-// EXTERNAL MODULE: D:/Project/react static/test1/myproject/src/components/Router.js
+// EXTERNAL MODULE: D:/Project/react static/test2/myProject/src/components/Router.js
 var Router = __webpack_require__(3);
 
-// CONCATENATED MODULE: D:/Project/react static/test1/myproject/src/containers/Dynamic.js
+// CONCATENATED MODULE: D:/Project/react static/test2/myProject/src/containers/Dynamic.js
 
 /* harmony default export */ var Dynamic = (function () {
   return external_react_default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
 });
-// EXTERNAL MODULE: D:/Project/react static/test1/myproject/src/app.css
+// EXTERNAL MODULE: D:/Project/react static/test2/myProject/src/app.css
 var app = __webpack_require__(41);
 
-// CONCATENATED MODULE: D:/Project/react static/test1/myproject/src/App.js
+// CONCATENATED MODULE: D:/Project/react static/test2/myProject/src/App.js
 
  //
 
@@ -934,25 +934,25 @@ module.exports = require("react-dom");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var D_Project_react_static_test1_myproject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
-/* harmony import */ var D_Project_react_static_test1_myproject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_Project_react_static_test1_myproject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var D_Project_react_static_test2_myProject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
+/* harmony import */ var D_Project_react_static_test2_myProject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_Project_react_static_test2_myProject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
 
 var plugins = [{
-  location: "D:/Project/react static/test1/myproject/node_modules/react-static-plugin-source-filesystem",
+  location: "D:/Project/react static/test2/myProject/node_modules/react-static-plugin-source-filesystem",
   plugins: [],
   hooks: {}
 }, {
-  location: "D:/Project/react static/test1/myproject/node_modules/react-static-plugin-reach-router",
+  location: "D:/Project/react static/test2/myProject/node_modules/react-static-plugin-reach-router",
   plugins: [],
-  hooks: D_Project_react_static_test1_myproject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
+  hooks: D_Project_react_static_test2_myProject_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default()({})
 }, {
-  location: "D:/Project/react static/test1/myproject/node_modules/react-static-plugin-sitemap/dist",
+  location: "D:/Project/react static/test2/myProject/node_modules/react-static-plugin-sitemap/dist",
   plugins: [],
   hooks: {}
 }, {
-  location: "D:/Project/react static/test1/myproject",
+  location: "D:/Project/react static/test2/myProject",
   plugins: [],
   hooks: {}
 }]; // Export em!
@@ -963,7 +963,7 @@ var plugins = [{
 /* 14 */
 /***/ (function(module, exports) {
 
-module.exports = require("D:\\Project\\react static\\test1\\myproject\\node_modules\\react-static\\lib\\browser");
+module.exports = require("D:\\Project\\react static\\test2\\myProject\\node_modules\\react-static\\lib\\browser");
 
 /***/ }),
 /* 15 */
@@ -978,8 +978,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
-/* harmony import */ var D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+/* harmony import */ var D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -992,7 +992,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+Object(D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -1003,106 +1003,106 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "D:/Project/react static/test1/myproject/src/pages/404.js",
+var t_0 = D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "D:/Project/react static/test2/myProject/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test1/myproject/src/pages/404 */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test2/myProject/src/pages/404 */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test1/myproject/src/pages/404.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test2/myProject/src/pages/404.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(18);
   },
   chunkName: function chunkName() {
-    return "D:/Project/react static/test1/myproject/src/pages/404";
+    return "D:/Project/react static/test2/myProject/src/pages/404";
   }
 }), universalOptions);
-t_0.template = 'D:/Project/react static/test1/myproject/src/pages/404.js';
-var t_1 = D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "D:/Project/react static/test1/myproject/src/pages/about.js",
+t_0.template = 'D:/Project/react static/test2/myProject/src/pages/404.js';
+var t_1 = D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "D:/Project/react static/test2/myProject/src/pages/about.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test1/myproject/src/pages/about */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test2/myProject/src/pages/about */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test1/myproject/src/pages/about.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test2/myProject/src/pages/about.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
-    return "D:/Project/react static/test1/myproject/src/pages/about";
+    return "D:/Project/react static/test2/myProject/src/pages/about";
   }
 }), universalOptions);
-t_1.template = 'D:/Project/react static/test1/myproject/src/pages/about.js';
-var t_2 = D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "D:/Project/react static/test1/myproject/src/pages/blog.js",
+t_1.template = 'D:/Project/react static/test2/myProject/src/pages/about.js';
+var t_2 = D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "D:/Project/react static/test2/myProject/src/pages/blog.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test1/myproject/src/pages/blog */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test2/myProject/src/pages/blog */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test1/myproject/src/pages/blog.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test2/myProject/src/pages/blog.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(20);
   },
   chunkName: function chunkName() {
-    return "D:/Project/react static/test1/myproject/src/pages/blog";
+    return "D:/Project/react static/test2/myProject/src/pages/blog";
   }
 }), universalOptions);
-t_2.template = 'D:/Project/react static/test1/myproject/src/pages/blog.js';
-var t_3 = D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "D:/Project/react static/test1/myproject/src/pages/index.js",
+t_2.template = 'D:/Project/react static/test2/myProject/src/pages/blog.js';
+var t_3 = D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "D:/Project/react static/test2/myProject/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test1/myproject/src/pages/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test2/myProject/src/pages/index */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test1/myproject/src/pages/index.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test2/myProject/src/pages/index.js');
   },
   resolve: function resolve() {
     return /*require.resolve*/(21);
   },
   chunkName: function chunkName() {
-    return "D:/Project/react static/test1/myproject/src/pages/index";
+    return "D:/Project/react static/test2/myProject/src/pages/index";
   }
 }), universalOptions);
-t_3.template = 'D:/Project/react static/test1/myproject/src/pages/index.js';
-var t_4 = D_Project_react_static_test1_myproject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "D:/Project/react static/test1/myproject/src/containers/Post",
+t_3.template = 'D:/Project/react static/test2/myProject/src/pages/index.js';
+var t_4 = D_Project_react_static_test2_myProject_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "D:/Project/react static/test2/myProject/src/containers/Post",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test1/myproject/src/containers/Post */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | D:/Project/react static/test2/myProject/src/containers/Post */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test1/myproject/src/containers/Post');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, 'D:/Project/react static/test2/myProject/src/containers/Post');
   },
   resolve: function resolve() {
     return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
-    return "D:/Project/react static/test1/myproject/src/containers/Post";
+    return "D:/Project/react static/test2/myProject/src/containers/Post";
   }
 }), universalOptions);
-t_4.template = 'D:/Project/react static/test1/myproject/src/containers/Post'; // Template Map
+t_4.template = 'D:/Project/react static/test2/myProject/src/containers/Post'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  'D:/Project/react static/test1/myproject/src/pages/404.js': t_0,
-  'D:/Project/react static/test1/myproject/src/pages/about.js': t_1,
-  'D:/Project/react static/test1/myproject/src/pages/blog.js': t_2,
-  'D:/Project/react static/test1/myproject/src/pages/index.js': t_3,
-  'D:/Project/react static/test1/myproject/src/containers/Post': t_4
+  'D:/Project/react static/test2/myProject/src/pages/404.js': t_0,
+  'D:/Project/react static/test2/myProject/src/pages/about.js': t_1,
+  'D:/Project/react static/test2/myProject/src/pages/blog.js': t_2,
+  'D:/Project/react static/test2/myProject/src/pages/index.js': t_3,
+  'D:/Project/react static/test2/myProject/src/containers/Post': t_4
 }); // Not Found Template
 
-var notFoundTemplate = "D:/Project/react static/test1/myproject/src/pages/404.js";
+var notFoundTemplate = "D:/Project/react static/test2/myProject/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -1377,7 +1377,7 @@ var _require = __webpack_require__(14),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("D:\\Project\\react static\\test1\\myproject\\artifacts\\react-static-browser-plugins.js", function () {
+  module.hot.accept("D:\\Project\\react static\\test2\\myProject\\artifacts\\react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(13)["default"]);
   });
 }
@@ -1401,7 +1401,7 @@ var _require2 = __webpack_require__(15),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("D:\\Project\\react static\\test1\\myproject\\artifacts\\react-static-templates.js", function () {
+  module.hot.accept("D:\\Project\\react static\\test2\\myProject\\artifacts\\react-static-templates.js", function () {
     var _require3 = __webpack_require__(15),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
@@ -1918,7 +1918,7 @@ module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 /* 38 */
 /***/ (function(module, exports) {
 
-module.exports = require("D:\\Project\\react static\\test1\\myproject\\node_modules\\react-static\\lib\\browser\\hooks\\useStaticInfo");
+module.exports = require("D:\\Project\\react static\\test2\\myProject\\node_modules\\react-static\\lib\\browser\\hooks\\useStaticInfo");
 
 /***/ }),
 /* 39 */

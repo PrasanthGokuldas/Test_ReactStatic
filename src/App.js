@@ -3,8 +3,9 @@ import { Root, Routes, addPrefetchExcludes } from 'react-static'
 //
 import { Link, Router } from 'components/Router'
 import Dynamic from 'containers/Dynamic'
-
-import './app.css'
+import Header from './pages/header';
+import Footer from './pages/common/footer';
+import './app.css';
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
@@ -18,6 +19,7 @@ function App() {
         <Link to="/blog">Blog</Link>
         <Link to="/dynamic">Dynamic</Link>
       </nav>
+      <Header />
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router>
@@ -26,6 +28,7 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
+      <Footer />
     </Root>
   )
 }
