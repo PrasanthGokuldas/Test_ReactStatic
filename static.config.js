@@ -1,3 +1,4 @@
+//https://github.com/react-static/react-static/blob/master/docs/config.md for configurations
 import path from 'path'
 import axios from 'axios'
 
@@ -20,6 +21,10 @@ export default {
             post,
           }),
         })),
+      },
+      {
+        path: '404',
+        template: 'src/pages/404',
       },
     ]
   },
