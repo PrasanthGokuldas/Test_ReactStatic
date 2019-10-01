@@ -3,7 +3,7 @@ import { Root, Routes, addPrefetchExcludes } from 'react-static'
 //
 import { Link, Router } from 'components/Router'
 import Dynamic from 'containers/Dynamic'
-import Header from './pages/header';
+import Header from './pages/common/header';
 import Footer from './pages/common/footer';
 import './app.css';
 

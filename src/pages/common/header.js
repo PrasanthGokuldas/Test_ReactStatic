@@ -1,5 +1,5 @@
 import React from 'react'
-import '../pages/css/header.css';
+import '../css/header.css';
 const header = () => (
   <div>
     <p>header a progressive static site generator for Reac.</p>

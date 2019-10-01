@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './header';
+import Header from './common/header';
 import { Helmet } from "react-helmet";
 export class about extends Component {
   render() {
