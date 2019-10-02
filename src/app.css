@@ -1,9 +1,18 @@
 * {
   scroll-behavior: smooth;
 }
-
+@font-face {
+  font-family: 'karla-regular';
+  src: url('./pages/fonts/karla-regular.ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'karla-bold';
+  src: url('./pages/fonts/karla-bold.ttf');
+  font-display: swap;
+}
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  font-family: 'karla-regular', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 16px;
