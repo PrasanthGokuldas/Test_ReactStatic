@@ -1,3 +1,58 @@
 #common-footer {
     background: gray;
 }
+.hide-search {
+    display: none;
+}
+.show-search {
+    display: block;
+}
+.searchAutocomplete {
+    position: absolute;
+    min-width: 320px;
+    max-width: 360px;
+    background: lightblue;
+    border: 1px solid;
+}
+.searchAutocomplete ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    max-height: 215px;
+    overflow-y: auto;
+}
+.searchAutocomplete ul li:hover{
+    background: lightcoral;
+}
+.searchAutocomplete ul li a{
+    text-decoration: none;
+}
+.showAll {
+    width: 100%;
+    text-align: center;
+    background: gray;
+}
+.showAll:hover {
+    background: gray;
+}
+
+/* width */
+.searchAutocomplete ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+ .searchAutocomplete ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+ .searchAutocomplete ::-webkit-scrollbar-thumb {
+    background: lightgray; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+ .searchAutocomplete ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+  }
